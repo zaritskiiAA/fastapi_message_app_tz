@@ -1,0 +1,8 @@
+# env modules
+.env
+
+# cache dirs
+__pycache__/
+
+# venv dirs
+.venv/
