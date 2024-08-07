@@ -9,7 +9,7 @@
 
 3. [Подготовка к запуску](#start)
 
-4. [Подключение телеграм бота](#bot) [Настройка переменных окружения](#env)
+4. [Подключение телеграм бота](#bot) 
 
 5. [Настройка переменных окружения](#env)
 
@@ -146,11 +146,17 @@ docker compose exec backend python main.py
 
 <!-- MARKDOWN LINKS & BADGES -->
 
+[Python-url]: https://www.python.org/downloads/release/python-3110/
+[Python-badge]: https://img.shields.io/badge/python-v3.11-yellow?style=for-the-badge&logo=python
+
+[Docker-url]: https://www.docker.com/
+[Docker-badge]: https://img.shields.io/badge/docker-red?style=for-the-badge&logo=docker
+
 [MongoDB-url]: https://www.mongodb.com/
-[MongoDB-badge]: https://img.shields.io/badge/MongoDB-green?style=for-the-badge&logo=mongodb&logoColor=white&link=https://www.mongodb.com/)
+[MongoDB-badge]: https://img.shields.io/badge/MongoDB-green?style=for-the-badge&logo=mongodb&logoColor=white&link=https://www.mongodb.com/
 
 [Redis-url]: https://redis.io/
-[Redis-badge]: https://img.shields.io/badge/Redis-red?style=for-the-badge&logo=redis&logoColor=white&link=https://redis.io/)
+[Redis-badge]: https://img.shields.io/badge/Redis-red?style=for-the-badge&logo=redis&logoColor=white&link=https://redis.io/
 
 [Aiogram-url]: https://docs.aiogram.dev/en/latest/
 [Aiogram-badge]: https://img.shields.io/badge/Aiogram-purple?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz...&logoColor=white&link=https://github.com/aiogram/aiogram
