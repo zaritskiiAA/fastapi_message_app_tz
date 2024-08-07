@@ -47,7 +47,6 @@
 git clone <ssh or https>
 
 ```
-
 3.2 Перейти в каталог /app, устанавить и развернуть виртуальное окружение.
 
 ```
@@ -62,7 +61,6 @@ source .venv/bin/activate
 ```
 source .venv/Scripts/acvite
 ```
-
 3.3 Установить зависимости из файла reqirements.txt
 
 ```
@@ -90,27 +88,22 @@ pip install -r requirements.txt
 Оба хранилища подключатся в контейнерах. Для этого нужно
 
 Перейти в директорию /infra
-
 ```
 /cd infra
 
 ```
-
 Запустить docker-compose.local.yaml
 
 ```
 docker compose -f docker-compose.local.yaml up --build -d
 ```
-
 Для запуска проекта из директории (app) выполнить команду в терминале
 
 ```
 uvicorn main:app --reload
 ```
-
 Флаг --reload не обязателен, используется для активной разработки, что бы сервер сам себя перезагружал после каждого измнения.
 Далее в новом экземпляре терминала выполнить команду для запуска бота.
-
 ```
 python main.py
 ```
@@ -120,19 +113,14 @@ python main.py
 Для запуска приложения полностью из контейнеров необходимо:
 
 Перейти в директорию infra
-
 ```
 cd /infra
 ```
-
 Запустить docker-compose.yaml
-
 ```
 docker compose up --build -d
 ```
-
 Запустить бота из контейнера, необходимо напрямую в контейнер с приложением отправить команду 
-
 ```
 docker compose exec backend python main.py
 ```
@@ -146,8 +134,8 @@ docker compose exec backend python main.py
 
 <!-- MARKDOWN LINKS & BADGES -->
 
-[Python-url]: https://www.python.org/downloads/release/python-3110/
-[Python-badge]: https://img.shields.io/badge/python-v3.11-yellow?style=for-the-badge&logo=python
+[Python-url]: https://www.python.org/downloads/release/python-3120/
+[Python-badge]: https://img.shields.io/badge/python-v3.12-yellow?style=for-the-badge&logo=python
 
 [Docker-url]: https://www.docker.com/
 [Docker-badge]: https://img.shields.io/badge/docker-red?style=for-the-badge&logo=docker
